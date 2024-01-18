@@ -1,0 +1,56 @@
+.callout {
+    background-color: white;
+}
+
+.callout img {
+    margin: 7px;
+    border: 2px;
+    padding: 2px;
+    width: 100px;
+    height: auto;
+}
+
+.scroller {
+    background-color: lightblue;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.scroller img{
+    margin: 5px;
+    border: 2px;
+}
+scroller-box {
+    background-color: black;
+}
+
+.product {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product img {
+    max-width: 200px;
+    max-height:auto;
+    margin: 3px;
+    border: 5px double plum;
+    background-color: aliceblue;
+}
+product-gallery {
+    background-color: lightblue;
+    color: black;
+    margin: 5px;
+    border: 2px dotted black;
+    padding: 14px;
+}
+
+.footer-info { 
+	background-color: white;
+}
+
+footer-box { 
+	background-color: white;
+}
+
