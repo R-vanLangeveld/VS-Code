@@ -12,7 +12,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -21,5 +21,30 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+    width: 900px;
+}
+
+aside {
+    width: 400px;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 15px;
+    background-color: #BCCDDC;
+    color: black;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    text-align: center;
 }
