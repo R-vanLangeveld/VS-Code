@@ -38,6 +38,7 @@ main {
 aside {
     width: 550px;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
