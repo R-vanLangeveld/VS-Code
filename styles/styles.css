@@ -18,6 +18,10 @@ h1 {
     color: steelblue;
 }
 
+main {
+    width: 575px;
+}
+
 main img {
     width: 150px;
     height: auto;
@@ -31,10 +35,6 @@ p {
     padding: 0;
 }
 
-main {
-    width: 600px;
-}
-
 aside {
     position: relative;
     width: 550px;
@@ -43,8 +43,8 @@ aside {
 
 aside h2 {
     position: absolute;
-    top: 550px;
-    left: 60px;
+    top: 45px;
+    left: 45px;
     color: white;
 }
 
