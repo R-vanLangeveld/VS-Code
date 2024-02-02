@@ -34,6 +34,7 @@ h1 {
     left: 200px;
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    background-color: #38405F;
 }
 
 h2, h3, h4, h5, h6 {
