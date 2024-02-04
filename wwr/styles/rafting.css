@@ -142,7 +142,7 @@ header {
 header img {
     margin: 15px 15px 15px 150px;
     max-width: 100px;
-    max-height: auto;
+    height: auto;
     background-color: var(--accent2-color);
 }
 
@@ -187,7 +187,7 @@ footer a:link, footer a:visited, footer a:focus, footer a:hover, footer a:active
 
 footer img {
     max-width: 30px;
-    max-height: auto;
+    height: auto;
     padding: 2px;
     margin: 10px 5px 0 5px;
 }
