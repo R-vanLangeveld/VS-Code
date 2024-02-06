@@ -35,21 +35,6 @@ form {
     display: grid;
 }
 
-fieldset {
-    display: grid;
-    gap: .5rem;
-    margin: 1rem;
-    border: 1px solid #333;
-    padding: 1rem;
-}
-
-legend {
-    padding: 0.5rem;
-    color: navy;
-    font-family: "dancing script", serif;
-    font-size: 1.3em;
-}
-
 label, input, select, textarea {
   font-family: mate, "new times roman", serif;
   font-size: 100%;
@@ -74,18 +59,4 @@ button {
 
 button:hover {
     background-color: rgb(0, 0, 100);
-}
-
-.form-item {
-    display: grid;
-    align-items: center;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
 }
