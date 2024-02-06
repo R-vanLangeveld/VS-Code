@@ -50,19 +50,10 @@ legend {
     font-size: 1.3em;
 }
 
-label, button, input, select, textarea {
+label, input, select, textarea {
   font-family: mate, "new times roman", serif;
   font-size: 100%;
-}
-
-label {
-    text-align: center;
-    padding-right: 1rem;
-}
-
-input, select, textarea {
-    padding: 0.5rem;
-    font-size: 1.1rem;
+  padding: 0.5rem;
 }
 
 input[type="checkbox"] {
