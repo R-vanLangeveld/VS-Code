@@ -77,7 +77,15 @@ p {
 }
 
 section {
-    border: 1px ; 
+    border: 1px solid var(--accent1-color);
+    margin: 10px 0 10px 0;
+    columns: auto 2;
+    text-align: justify;
+}
+
+iframe {
+    max-width: 300px;
+    height: auto;
 }
 
 .history {
@@ -114,6 +122,15 @@ section {
 
 figure {
     border: thin solid var(--accent1-color);
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 125px;
+    margin: 2px 2px 10px 2px;
+}
+
+figure2 {
+    /* border: thin solid white; */
     display: flex;
     flex-flow: column;
     padding: 5px;
