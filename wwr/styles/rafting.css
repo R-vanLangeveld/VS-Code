@@ -206,11 +206,26 @@ footer p {
     color: var(--accent2-color);
 }
 
-footer a:link, footer a:visited, footer a:focus, footer a:hover, footer a:active {   
+.wireframe a:link {
+    color: var(--accent2-color)
+}
+
+.wireframe a:visited {
+    color:#22AED1
+}
+
+.social {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    background-color: var(--secondary-color);
+}
+
+.social a:link, .social a:visited, .social a:focus, .social a:hover, .social a:active {   
     text-decoration: none;
 }
 
-footer img {
+.social img {
     max-width: 30px;
     height: auto;
     padding: 2px;
