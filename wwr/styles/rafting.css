@@ -237,7 +237,6 @@ footer p {
 
 .wireframe a:link {
     color: var(--accent1-color);
-    /* background-color: black; */
 }
 
 .wireframe a:visited {
