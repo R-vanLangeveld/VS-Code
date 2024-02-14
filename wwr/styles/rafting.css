@@ -196,7 +196,7 @@ th, td {
 
 caption {
     font-family: var(--heading-font);
-    font-size:x-large;
+    font-size:large;
     color: var(--primary-color);
 }
 
@@ -236,11 +236,13 @@ footer p {
 }
 
 .wireframe a:link {
-    color: var(--accent1-color);
+    color: var(--secondary-color);
+    background-color: #F1ECCE;
 }
 
 .wireframe a:visited {
-    color: var(--accent1-color);
+    color: var(--primary-color);
+    background-color: #F1ECCE;
 }
 
 .social {
