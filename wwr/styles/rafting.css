@@ -18,7 +18,11 @@
 body {
     width: 650px;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primary-color);
+    text-align: center;
+}
 .hero {
     position: relative;
     border: 1px solid var(--accent1-color);
@@ -40,11 +44,7 @@ body {
     padding: 5px 10px 5px 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color:var(--primary-color);
-    text-align: center;
-}
+
 
 article {
     position: absolute;
