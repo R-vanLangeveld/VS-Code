@@ -10,8 +10,8 @@
     --paragraph-font: Mate,'times new roman', serif;
   
     --nav-background-color: #F1ECCE;
-    --nav-link-color: var(--accent1-color);
-    --nav-hover-link-color: var(--primary-color);
+    --nav-link-color: #22AED1;
+    --nav-hover-link-color: #137547;
     --nav-hover-background-color: #d9d4b8;
 }
 
@@ -30,7 +30,7 @@ body {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 0;
     left: 200px;
@@ -40,7 +40,7 @@ h1 {
     padding: 5px 10px 5px 10px;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color:var(--primary-color);
     text-align: center;
@@ -97,6 +97,11 @@ p {
     height: auto;
 }
 
+.company figure {
+    max-width: 300px;
+    margin: 15px;
+}
+
 .history {
     display: grid;
     border: 1px solid var(--accent1-color);
@@ -118,7 +123,7 @@ p {
     margin: 10px 0 10px 0;
 }
 
-.adventures h2 {
+.adventures h1, .adventures h2 {
     grid-column: 1/6;
     grid-row: 1/2;
     justify-self: center;
@@ -127,6 +132,12 @@ p {
 .adventures img {
     display: flex;
     justify-items: center;
+}/* I checked, we don't need this anymore */
+
+.adventures p {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 2px;
 }
 
 figure {
@@ -161,6 +172,30 @@ header img {
     max-width: 100px;
     height: auto;
     background-color: var(--accent2-color);
+}
+
+table, td {
+    margin: 10px 50px;
+    border: 1px solid var(--secondary-color);
+    border-collapse: collapse;
+    font-family: var(--paragraph-font);
+    background-color: var(--accent2-color);
+}
+
+thead {
+    background-color: var(--accent1-color);
+}
+
+th, td {
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+caption {
+    font-family: var(--heading-font);
+    font-size:x-large;
+    color: var(--primary-color);
 }
 
 nav {
@@ -199,11 +234,12 @@ footer p {
 }
 
 .wireframe a:link {
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    background-color: black;
 }
 
 .wireframe a:visited {
-    color:#22AED1
+    color: var(--accent1-color);
 }
 
 .social {
@@ -225,8 +261,8 @@ footer p {
 }
 
 form {
-    width: 450px;
-    margin: 0 auto;
+    width: 400px;
+    margin: 15px auto;
     padding: 1rem;
     border: 1px solid #333;
     border-radius: 0.5rem;
@@ -249,6 +285,7 @@ legend {
     padding: 0.5rem;
     font-family: var(--heading-font);
     font-size: 1.3em;
+    color: var(--primary-color);
 }
 
 label, button, input, select, textarea {
