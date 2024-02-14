@@ -18,11 +18,13 @@
 body {
     width: 650px;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color:var(--primary-color);
     text-align: center;
 }
+
 .hero {
     position: relative;
     border: 1px solid var(--accent1-color);
@@ -71,7 +73,7 @@ article p {
     margin: 10px;
     font-family: var(--paragraph-font);
     color: black;
-    text-align: justify;
+    text-align: left;
 }
 
 p {
@@ -115,7 +117,7 @@ p {
     padding: 5px;
     margin: 5px 15px 5px 15px;
     columns: auto 2;
-    text-align: justify;
+    text-align: left;
 }
 
 .adventures {
@@ -131,11 +133,6 @@ p {
     grid-row: 1/2;
     justify-self: center;
 }
-
-.adventures img {
-    display: flex;
-    justify-items: center;
-}/* I checked, we don't need this anymore */
 
 .adventures p {
     font-family: var(--paragraph-font);
