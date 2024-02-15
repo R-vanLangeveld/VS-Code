@@ -288,9 +288,9 @@ legend {
     color: var(--primary-color);
 }
 
-label, button, input, select, textarea {
-  font-family: var(--paragraph-font);
-  font-size: 100%;
+label, input, select, textarea {
+    font-family: var(--paragraph-font);
+    font-size: 100%;
 }
 
 button {
@@ -301,8 +301,30 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    font-family: var(--paragraph-font);
+    font-size: 100%;
 }
 
 button:hover {
     background-color: #313958;
+}
+
+.cta {
+    background-color: #0000ff;
+    color: #fff;
+    border: 1px solid #333;
+    box-shadow: 10px 10px 5px #333;
+    padding: 1em;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.cta:hover {
+    background-color: #f0f;
+    color: #777;
+}
+
+.cta:active {
+    background-color: #0f0;
+    color: #777;
 }
